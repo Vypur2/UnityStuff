@@ -1,0 +1,4 @@
+@echo off
+
+call "C:\Program Files\Sublime Text 2\sublime_text.exe"
+set path=
