@@ -1,0 +1,366 @@
+fileFormatVersion: 2
+guid: c76e2fce758638446b73bd843dc58d2e
+timeCreated: 1426887710
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmIK.l
+    100004: ArmIK.l_end
+    100006: ArmIK.r
+    100008: ArmIK.r_end
+    100010: Bicep.l
+    100012: Bicep.r
+    100014: Bob
+    100016: Chest
+    100018: Circle
+    100020: Control
+    100022: elbow.l
+    100024: elbow.l_end
+    100026: elbow.r
+    100028: elbow.r_end
+    100030: Foot.l
+    100032: Foot.l_end
+    100034: Foot.r
+    100036: Foot.r_end
+    100038: footIK.l
+    100040: footIK.r
+    100042: Forearm.l
+    100044: Forearm.l_end
+    100046: Forearm.r
+    100048: Forearm.r_end
+    100050: Head
+    100052: Head_end
+    100054: //RootNode
+    100056: knee.l
+    100058: knee.l_end
+    100060: knee.r
+    100062: knee.r_end
+    100064: Neck
+    100066: Shin.l
+    100068: Shin.l_end
+    100070: Shin.r
+    100072: Shin.r_end
+    100074: Stomach
+    100076: Thigh.l
+    100078: Thigh.r
+    400000: Armature
+    400002: ArmIK.l
+    400004: ArmIK.l_end
+    400006: ArmIK.r
+    400008: ArmIK.r_end
+    400010: Bicep.l
+    400012: Bicep.r
+    400014: Bob
+    400016: Chest
+    400018: Circle
+    400020: Control
+    400022: elbow.l
+    400024: elbow.l_end
+    400026: elbow.r
+    400028: elbow.r_end
+    400030: Foot.l
+    400032: Foot.l_end
+    400034: Foot.r
+    400036: Foot.r_end
+    400038: footIK.l
+    400040: footIK.r
+    400042: Forearm.l
+    400044: Forearm.l_end
+    400046: Forearm.r
+    400048: Forearm.r_end
+    400050: Head
+    400052: Head_end
+    400054: //RootNode
+    400056: knee.l
+    400058: knee.l_end
+    400060: knee.r
+    400062: knee.r_end
+    400064: Neck
+    400066: Shin.l
+    400068: Shin.l_end
+    400070: Shin.r
+    400072: Shin.r_end
+    400074: Stomach
+    400076: Thigh.l
+    400078: Thigh.r
+    2300000: Circle
+    3300000: Circle
+    4300000: Circle
+    4300002: Bob
+    6400000: Circle
+    7400000: Rising
+    7400002: Jump
+    9500000: //RootNode
+    13700000: Bob
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rising
+      takeName: Armature|ArmatureAction
+      firstFrame: 45
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/ArmIK.l
+        weight: 1
+      - path: Armature/Control/ArmIK.l/ArmIK.l_end
+        weight: 1
+      - path: Armature/Control/ArmIK.r
+        weight: 1
+      - path: Armature/Control/ArmIK.r/ArmIK.r_end
+        weight: 1
+      - path: Armature/Control/elbow.l
+        weight: 1
+      - path: Armature/Control/elbow.l/elbow.l_end
+        weight: 1
+      - path: Armature/Control/elbow.r
+        weight: 1
+      - path: Armature/Control/elbow.r/elbow.r_end
+        weight: 1
+      - path: Armature/Control/footIK.l
+        weight: 1
+      - path: Armature/Control/footIK.l/Foot.l
+        weight: 1
+      - path: Armature/Control/footIK.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Armature/Control/footIK.r
+        weight: 1
+      - path: Armature/Control/footIK.r/Foot.r
+        weight: 1
+      - path: Armature/Control/footIK.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Armature/Control/knee.l
+        weight: 1
+      - path: Armature/Control/knee.l/knee.l_end
+        weight: 1
+      - path: Armature/Control/knee.r
+        weight: 1
+      - path: Armature/Control/knee.r/knee.r_end
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.l
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.l/Forearm.l
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.l/Forearm.l/Forearm.l_end
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.r
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.r/Forearm.r
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.r/Forearm.r/Forearm.r_end
+        weight: 1
+      - path: Armature/Control/Stomach/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l/Shin.l
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l/Shin.l/Shin.l_end
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r/Shin.r
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r/Shin.r/Shin.r_end
+        weight: 1
+      - path: Bob
+        weight: 1
+      - path: Circle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/ArmIK.l
+        weight: 1
+      - path: Armature/Control/ArmIK.l/ArmIK.l_end
+        weight: 1
+      - path: Armature/Control/ArmIK.r
+        weight: 1
+      - path: Armature/Control/ArmIK.r/ArmIK.r_end
+        weight: 1
+      - path: Armature/Control/elbow.l
+        weight: 1
+      - path: Armature/Control/elbow.l/elbow.l_end
+        weight: 1
+      - path: Armature/Control/elbow.r
+        weight: 1
+      - path: Armature/Control/elbow.r/elbow.r_end
+        weight: 1
+      - path: Armature/Control/footIK.l
+        weight: 1
+      - path: Armature/Control/footIK.l/Foot.l
+        weight: 1
+      - path: Armature/Control/footIK.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Armature/Control/footIK.r
+        weight: 1
+      - path: Armature/Control/footIK.r/Foot.r
+        weight: 1
+      - path: Armature/Control/footIK.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Armature/Control/knee.l
+        weight: 1
+      - path: Armature/Control/knee.l/knee.l_end
+        weight: 1
+      - path: Armature/Control/knee.r
+        weight: 1
+      - path: Armature/Control/knee.r/knee.r_end
+        weight: 1
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.l
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.l/Forearm.l
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.l/Forearm.l/Forearm.l_end
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.r
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.r/Forearm.r
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.r/Forearm.r/Forearm.r_end
+        weight: 1
+      - path: Armature/Control/Stomach/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l/Shin.l
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l/Shin.l/Shin.l_end
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r/Shin.r
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r/Shin.r/Shin.r_end
+        weight: 1
+      - path: Bob
+        weight: 1
+      - path: Circle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .250999987
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

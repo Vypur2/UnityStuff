@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 06f9947dd20d5104f9a7ee2badc4c1ea
+timeCreated: 1426964545
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmIK.l
+    100004: ArmIK.l_end
+    100006: ArmIK.r
+    100008: ArmIK.r_end
+    100010: Bicep.l
+    100012: Bicep.r
+    100014: Bob
+    100016: Chest
+    100018: Circle
+    100020: Control
+    100022: elbow.l
+    100024: elbow.l_end
+    100026: elbow.r
+    100028: elbow.r_end
+    100030: Foot.l
+    100032: Foot.l_end
+    100034: Foot.r
+    100036: Foot.r_end
+    100038: footIK.l
+    100040: footIK.r
+    100042: Forearm.l
+    100044: Forearm.l_end
+    100046: Forearm.r
+    100048: Forearm.r_end
+    100050: Head
+    100052: Head_end
+    100054: knee.l
+    100056: knee.l_end
+    100058: knee.r
+    100060: knee.r_end
+    100062: Neck
+    100064: Shin.l
+    100066: Shin.l_end
+    100068: Shin.r
+    100070: Shin.r_end
+    100072: Stomach
+    100074: Thigh.l
+    100076: Thigh.r
+    100078: //RootNode
+    400000: Armature
+    400002: ArmIK.l
+    400004: ArmIK.l_end
+    400006: ArmIK.r
+    400008: ArmIK.r_end
+    400010: Bicep.l
+    400012: Bicep.r
+    400014: Bob
+    400016: Chest
+    400018: Circle
+    400020: Control
+    400022: elbow.l
+    400024: elbow.l_end
+    400026: elbow.r
+    400028: elbow.r_end
+    400030: Foot.l
+    400032: Foot.l_end
+    400034: Foot.r
+    400036: Foot.r_end
+    400038: footIK.l
+    400040: footIK.r
+    400042: Forearm.l
+    400044: Forearm.l_end
+    400046: Forearm.r
+    400048: Forearm.r_end
+    400050: Head
+    400052: Head_end
+    400054: knee.l
+    400056: knee.l_end
+    400058: knee.r
+    400060: knee.r_end
+    400062: Neck
+    400064: Shin.l
+    400066: Shin.l_end
+    400068: Shin.r
+    400070: Shin.r_end
+    400072: Stomach
+    400074: Thigh.l
+    400076: Thigh.r
+    400078: //RootNode
+    2300000: Circle
+    3300000: Circle
+    4300000: Circle
+    4300002: Bob
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Bob
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: Armature
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: cfde218f482989343b6b17f651ae486c
+timeCreated: 1427486650
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: abs
+    100002: Armature
+    100004: armIK.l
+    100006: armIK.l_end
+    100008: armIK.r
+    100010: armIK.r_end
+    100012: bicep.l
+    100014: bicep.r
+    100016: Camera
+    100018: chest
+    100020: control
+    100022: Cube
+    100024: Cube_MeshPart0
+    100026: Cube_MeshPart1
+    100028: elbow.l
+    100030: elbow.l_end
+    100032: elbow.r
+    100034: elbow.r_end
+    100036: foot.l
+    100038: foot.l_end
+    100040: foot.r
+    100042: foot.r_end
+    100044: footik.l
+    100046: footik.r
+    100048: forearm.l
+    100050: forearm.l_end
+    100052: forearm.r
+    100054: forearm.r_end
+    100056: head
+    100058: head_end
+    100060: knee.l
+    100062: knee.l_end
+    100064: knee.r
+    100066: knee.r_end
+    100068: Lamp
+    100070: neck
+    100072: //RootNode
+    100074: shin.l
+    100076: shin.l_end
+    100078: shin.r
+    100080: shin.r_end
+    100082: Sphere
+    100084: thigh.l
+    100086: thigh.r
+    400000: abs
+    400002: Armature
+    400004: armIK.l
+    400006: armIK.l_end
+    400008: armIK.r
+    400010: armIK.r_end
+    400012: bicep.l
+    400014: bicep.r
+    400016: Camera
+    400018: chest
+    400020: control
+    400022: Cube
+    400024: Cube_MeshPart0
+    400026: Cube_MeshPart1
+    400028: elbow.l
+    400030: elbow.l_end
+    400032: elbow.r
+    400034: elbow.r_end
+    400036: foot.l
+    400038: foot.l_end
+    400040: foot.r
+    400042: foot.r_end
+    400044: footik.l
+    400046: footik.r
+    400048: forearm.l
+    400050: forearm.l_end
+    400052: forearm.r
+    400054: forearm.r_end
+    400056: head
+    400058: head_end
+    400060: knee.l
+    400062: knee.l_end
+    400064: knee.r
+    400066: knee.r_end
+    400068: Lamp
+    400070: neck
+    400072: //RootNode
+    400074: shin.l
+    400076: shin.l_end
+    400078: shin.r
+    400080: shin.r_end
+    400082: Sphere
+    400084: thigh.l
+    400086: thigh.r
+    2300000: Sphere
+    3300000: Sphere
+    4300000: Sphere
+    4300002: Cube_MeshPart0
+    4300004: Cube_MeshPart1
+    9500000: //RootNode
+    13700000: Cube_MeshPart0
+    13700002: Cube_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

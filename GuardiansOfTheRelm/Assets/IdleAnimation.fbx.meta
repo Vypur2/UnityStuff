@@ -1,0 +1,629 @@
+fileFormatVersion: 2
+guid: e366988c16eeb6247b8afa00593d1765
+timeCreated: 1426799426
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmIK.l
+    100004: ArmIK.l_end
+    100006: ArmIK.r
+    100008: ArmIK.r_end
+    100010: Bicep.l
+    100012: Bicep.r
+    100014: Bob
+    100016: Chest
+    100018: Circle
+    100020: Control
+    100022: elbow.l
+    100024: elbow.l_end
+    100026: elbow.r
+    100028: elbow.r_end
+    100030: Foot.l
+    100032: Foot.l_end
+    100034: Foot.r
+    100036: Foot.r_end
+    100038: footIK.l
+    100040: footIK.r
+    100042: Forearm.l
+    100044: Forearm.l_end
+    100046: Forearm.r
+    100048: Forearm.r_end
+    100050: Head
+    100052: Head_end
+    100054: //RootNode
+    100056: knee.l
+    100058: knee.l_end
+    100060: knee.r
+    100062: knee.r_end
+    100064: Neck
+    100066: Shin.l
+    100068: Shin.l_end
+    100070: Shin.r
+    100072: Shin.r_end
+    100074: Stomach
+    100076: Thigh.l
+    100078: Thigh.r
+    400000: Armature
+    400002: ArmIK.l
+    400004: ArmIK.l_end
+    400006: ArmIK.r
+    400008: ArmIK.r_end
+    400010: Bicep.l
+    400012: Bicep.r
+    400014: Bob
+    400016: Chest
+    400018: Circle
+    400020: Control
+    400022: elbow.l
+    400024: elbow.l_end
+    400026: elbow.r
+    400028: elbow.r_end
+    400030: Foot.l
+    400032: Foot.l_end
+    400034: Foot.r
+    400036: Foot.r_end
+    400038: footIK.l
+    400040: footIK.r
+    400042: Forearm.l
+    400044: Forearm.l_end
+    400046: Forearm.r
+    400048: Forearm.r_end
+    400050: Head
+    400052: Head_end
+    400054: //RootNode
+    400056: knee.l
+    400058: knee.l_end
+    400060: knee.r
+    400062: knee.r_end
+    400064: Neck
+    400066: Shin.l
+    400068: Shin.l_end
+    400070: Shin.r
+    400072: Shin.r_end
+    400074: Stomach
+    400076: Thigh.l
+    400078: Thigh.r
+    2300000: Circle
+    3300000: Circle
+    4300000: Circle
+    4300002: Bob
+    7400000: Idle
+    7400002: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Bob
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/ArmIK.l
+        weight: 0
+      - path: Armature/Control/ArmIK.l/ArmIK.l_end
+        weight: 0
+      - path: Armature/Control/ArmIK.r
+        weight: 0
+      - path: Armature/Control/ArmIK.r/ArmIK.r_end
+        weight: 0
+      - path: Armature/Control/elbow.l
+        weight: 0
+      - path: Armature/Control/elbow.l/elbow.l_end
+        weight: 0
+      - path: Armature/Control/elbow.r
+        weight: 0
+      - path: Armature/Control/elbow.r/elbow.r_end
+        weight: 0
+      - path: Armature/Control/footIK.l
+        weight: 0
+      - path: Armature/Control/footIK.l/Foot.l
+        weight: 0
+      - path: Armature/Control/footIK.l/Foot.l/Foot.l_end
+        weight: 0
+      - path: Armature/Control/footIK.r
+        weight: 0
+      - path: Armature/Control/footIK.r/Foot.r
+        weight: 0
+      - path: Armature/Control/footIK.r/Foot.r/Foot.r_end
+        weight: 0
+      - path: Armature/Control/knee.l
+        weight: 0
+      - path: Armature/Control/knee.l/knee.l_end
+        weight: 0
+      - path: Armature/Control/knee.r
+        weight: 0
+      - path: Armature/Control/knee.r/knee.r_end
+        weight: 0
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.l
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.l/Forearm.l
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.l/Forearm.l/Forearm.l_end
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.r
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.r/Forearm.r
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.r/Forearm.r/Forearm.r_end
+        weight: 0
+      - path: Armature/Control/Stomach/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Control/Stomach/Thigh.l
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l/Shin.l
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l/Shin.l/Shin.l_end
+        weight: 0
+      - path: Armature/Control/Stomach/Thigh.r
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r/Shin.r
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r/Shin.r/Shin.r_end
+        weight: 0
+      - path: Bob
+        weight: 0
+      - path: Circle
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/ArmIK.l
+        weight: 0
+      - path: Armature/Control/ArmIK.l/ArmIK.l_end
+        weight: 0
+      - path: Armature/Control/ArmIK.r
+        weight: 0
+      - path: Armature/Control/ArmIK.r/ArmIK.r_end
+        weight: 0
+      - path: Armature/Control/elbow.l
+        weight: 0
+      - path: Armature/Control/elbow.l/elbow.l_end
+        weight: 0
+      - path: Armature/Control/elbow.r
+        weight: 0
+      - path: Armature/Control/elbow.r/elbow.r_end
+        weight: 0
+      - path: Armature/Control/footIK.l
+        weight: 0
+      - path: Armature/Control/footIK.l/Foot.l
+        weight: 0
+      - path: Armature/Control/footIK.l/Foot.l/Foot.l_end
+        weight: 0
+      - path: Armature/Control/footIK.r
+        weight: 0
+      - path: Armature/Control/footIK.r/Foot.r
+        weight: 0
+      - path: Armature/Control/footIK.r/Foot.r/Foot.r_end
+        weight: 0
+      - path: Armature/Control/knee.l
+        weight: 0
+      - path: Armature/Control/knee.l/knee.l_end
+        weight: 0
+      - path: Armature/Control/knee.r
+        weight: 0
+      - path: Armature/Control/knee.r/knee.r_end
+        weight: 0
+      - path: Armature/Control/Stomach
+        weight: 1
+      - path: Armature/Control/Stomach/Bicep.l
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.l/Forearm.l
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.l/Forearm.l/Forearm.l_end
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.r
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.r/Forearm.r
+        weight: 0
+      - path: Armature/Control/Stomach/Bicep.r/Forearm.r/Forearm.r_end
+        weight: 0
+      - path: Armature/Control/Stomach/Chest
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Stomach/Chest/Neck/Head/Head_end
+        weight: 0
+      - path: Armature/Control/Stomach/Thigh.l
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l/Shin.l
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.l/Shin.l/Shin.l_end
+        weight: 0
+      - path: Armature/Control/Stomach/Thigh.r
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r/Shin.r
+        weight: 1
+      - path: Armature/Control/Stomach/Thigh.r/Shin.r/Shin.r_end
+        weight: 0
+      - path: Bob
+        weight: 0
+      - path: Circle
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Stomach
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thigh.l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thigh.r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shin.l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shin.r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: IdleAnimation(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: 1.14841235, z: 0}
+      rotation: {x: -4.32977997e-17, y: .707106709, z: .707106829, w: -4.32978063e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Control
+      position: {x: 7.10542736e-15, y: 0, z: -1.43740129}
+      rotation: {x: 1, y: -7.07481135e-15, z: 1.94707155e-07, w: 5.96046448e-08}
+      scale: {x: .999999762, y: .999999642, z: .999999881}
+      transformModified: 1
+    - name: Stomach
+      position: {x: -.00773749361, y: -.065787375, z: -1.13020706}
+      rotation: {x: -.684390545, y: -1.70979078e-07, z: -6.87464023e-08, w: .729115605}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Chest
+      position: {x: -3.37604433e-09, y: .352480233, z: 1.39698386e-09}
+      rotation: {x: -.0777009279, y: 8.34397866e-08, z: 1.27098279e-08, w: .996976733}
+      scale: {x: .999999881, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Neck
+      position: {x: -0, y: .514045656, z: -3.25962901e-09}
+      rotation: {x: .100199349, y: -3.33945103e-08, z: 6.54085897e-09, w: .994967401}
+      scale: {x: 1.00000012, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: Head
+      position: {x: -0, y: .10525199, z: 3.7252903e-09}
+      rotation: {x: .0235299207, y: -.706907392, z: .0201573875, w: -.70662725}
+      scale: {x: 1, y: .999999702, z: .999999583}
+      transformModified: 1
+    - name: Head_end
+      position: {x: -0, y: .591690361, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bicep.l
+      position: {x: -.178625017, y: .766794801, z: -.0848683193}
+      rotation: {x: .107552171, y: -.0381352529, z: .811563551, w: .573012054}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.0000006}
+      transformModified: 1
+    - name: Forearm.l
+      position: {x: 1.25728548e-08, y: .362224877, z: -1.49011612e-08}
+      rotation: {x: -.0842913911, y: .794855833, z: .0791387334, w: .59568131}
+      scale: {x: 1.00000036, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: Forearm.l_end
+      position: {x: -0, y: .478308469, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Thigh.l
+      position: {x: -.133814082, y: -.0520318933, z: .0204097889}
+      rotation: {x: -.704919994, y: -.0359673798, z: -.704011917, w: -.0784950778}
+      scale: {x: 1.00000024, y: 1.00001156, z: 1.00000274}
+      transformModified: 1
+    - name: Shin.l
+      position: {x: 1.11758709e-08, y: .464929283, z: 1.49011612e-08}
+      rotation: {x: .0991054922, y: -.702656627, z: .0565683357, w: .702318847}
+      scale: {x: 1.00000012, y: .999992728, z: 1.00000668}
+      transformModified: 1
+    - name: Shin.l_end
+      position: {x: -0, y: .446329981, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bicep.r
+      position: {x: .175351843, y: .76679492, z: -.084868446}
+      rotation: {x: .207495064, y: .181496531, z: .791927159, w: -.544845164}
+      scale: {x: .999999702, y: .999999881, z: 1.0000006}
+      transformModified: 1
+    - name: Forearm.r
+      position: {x: -1.60187483e-07, y: .362224847, z: 7.4505806e-08}
+      rotation: {x: .0413645133, y: .852131546, z: -.107967302, w: .510395885}
+      scale: {x: .999999523, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: Forearm.r_end
+      position: {x: -0, y: .478308469, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Thigh.r
+      position: {x: .130540937, y: -.0520319119, z: .0204096995}
+      rotation: {x: -.708344758, y: -.0783086866, z: -.700563669, w: -.0364146605}
+      scale: {x: .999999762, y: .999999583, z: .999999583}
+      transformModified: 1
+    - name: Shin.r
+      position: {x: 7.4505806e-09, y: .464929432, z: 4.3772161e-08}
+      rotation: {x: .0571426935, y: -.697970033, z: .0987909809, w: .706974506}
+      scale: {x: 1.00000012, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: Shin.r_end
+      position: {x: -0, y: .446329981, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow.l
+      position: {x: -.347002923, y: .280405164, z: -2.21473002}
+      rotation: {x: -.707106709, y: -1.26440554e-07, z: -1.26440511e-07, w: .707106829}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: elbow.l_end
+      position: {x: -0, y: .25, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee.l
+      position: {x: -.0435110554, y: .793108821, z: -.706454217}
+      rotation: {x: -.707106709, y: -1.26440554e-07, z: -1.26440511e-07, w: .707106829}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: knee.l_end
+      position: {x: -0, y: .25, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ArmIK.l
+      position: {x: -.422990978, y: .673864841, z: -1.5807029}
+      rotation: {x: -1, y: 2.13162821e-14, z: -1.94707169e-07, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ArmIK.l_end
+      position: {x: -0, y: .250147998, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: footIK.l
+      position: {x: -.160032555, y: .517773747, z: -.434896529}
+      rotation: {x: -1, y: 2.13162821e-14, z: -1.94576486e-07, w: 0}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Foot.l
+      position: {x: -3.53902578e-08, y: 9.31322575e-10, z: 4.74229296e-08}
+      rotation: {x: .004669616, y: .0799797773, z: -.996034861, w: -.0386781693}
+      scale: {x: 1, y: .99999994, z: 1.00000048}
+      transformModified: 1
+    - name: Foot.l_end
+      position: {x: -0, y: .293514222, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow.r
+      position: {x: .858313501, y: -.0723766834, z: -1.43781984}
+      rotation: {x: -.707106709, y: -1.26440554e-07, z: -1.26440511e-07, w: .707106829}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: elbow.r_end
+      position: {x: -0, y: .25, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee.r
+      position: {x: 1.17925477, y: .276303113, z: -.916292548}
+      rotation: {x: -.707106709, y: -1.26440554e-07, z: -1.26440511e-07, w: .707106829}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: knee.r_end
+      position: {x: -0, y: .25, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ArmIK.r
+      position: {x: .380837232, y: -.0999211445, z: -1.30523849}
+      rotation: {x: -1, y: 2.13162821e-14, z: -1.94707169e-07, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ArmIK.r_end
+      position: {x: -0, y: .250147998, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: footIK.r
+      position: {x: .166537732, y: -.315703839, z: -.430159271}
+      rotation: {x: -1, y: -1.6723078e-08, z: -1.94707155e-07, w: 0}
+      scale: {x: .999999881, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Foot.r
+      position: {x: 2.23517702e-08, y: 4.09781933e-08, z: 9.99200722e-15}
+      rotation: {x: .0108043374, y: .0805711225, z: -.995987236, w: .0374310724}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.0000006}
+      transformModified: 1
+    - name: Foot.r_end
+      position: {x: -0, y: .293514222, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bob
+      position: {x: 0, y: -1.1920929e-07, z: 0}
+      rotation: {x: -4.32977997e-17, y: .707106709, z: .707106829, w: -4.32978063e-17}
+      scale: {x: .891052485, y: .891052544, z: .891052544}
+      transformModified: 1
+    - name: Circle
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -4.32977997e-17, y: .707106709, z: .707106829, w: -4.32978063e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
